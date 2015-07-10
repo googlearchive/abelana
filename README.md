@@ -32,7 +32,7 @@ A [full tutorial on Abelana](https://cloud.google.com/solutions/mobile/image-man
  explaining how it works, how to set it up and deploy it on Google Cloud Platform is available on the
 Google Cloud website.
 
-Note: The mobile client implemented in the sample uses HTTP/2 without TLS/SSL security.
+**Note**: The mobile client implemented in the sample uses HTTP/2 without TLS/SSL security.
 
 ## Contributing changes
 
