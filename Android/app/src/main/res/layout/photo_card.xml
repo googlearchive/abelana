@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:layout_marginLeft="@dimen/margin_large"
+    android:layout_marginRight="@dimen/margin_large"
+    android:elevation="100dp"
+    card_view:cardCornerRadius="2dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:minHeight="100dp"
+            android:contentDescription="@string/photo_card_picture_label"
+            android:background="@color/background_material_light"/>
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDate"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_small"
+            />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewPhoto"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_small"
+             />
+
+        <TextView
+            android:id="@+id/textViewSeparator"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:layout_below="@+id/textViewDescription" />
+
+        <ImageButton
+            android:id="@+id/imageButtonThumbsUp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/textViewSeparator"
+            android:layout_margin="@dimen/margin_small"
+            android:background="@drawable/ic_thumbs_up"
+            android:contentDescription="@string/photo_card_thumbs_up_label"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonThumbsDown"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/textViewSeparator"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_toEndOf="@+id/imageButtonThumbsUp"
+            android:background="@drawable/ic_thumbs_down"
+            android:contentDescription="@string/photo_card_thumbs_down_label"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonWallpaper"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/textViewSeparator"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_toEndOf="@+id/imageButtonThumbsDown"
+            android:background="@drawable/ic_wallpaper"
+            android:contentDescription="@string/photo_card_set_wallpaper_label"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButtonEdit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/imageButtonDelete"
+            android:layout_toStartOf="@+id/imageButtonDelete"
+            android:background="@drawable/ic_edit"
+            android:contentDescription="@string/photo_card_edit"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButtonDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignEnd="@+id/textViewDescription"
+            android:layout_alignTop="@+id/imageButtonWallpaper"
+            android:layout_marginStart="@dimen/margin_small"
+            android:background="@drawable/ic_delete"
+            android:contentDescription="@string/photo_card_delete"
+            />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C9DDCD76077A49D9A462A5 /* libPods-Abelana_v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5BD94733F954ED09096F7 /* libPods-Abelana_v2.a */; };
+		F46488BA1B3B9256003B1793 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488B91B3B9256003B1793 /* AddressBook.framework */; };
+		F46488BC1B3B9270003B1793 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488BB1B3B9270003B1793 /* MediaPlayer.framework */; };
+		F46488BE1B3B928F003B1793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488BD1B3B928F003B1793 /* Foundation.framework */; };
+		F46488C01B3B9295003B1793 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488BF1B3B9295003B1793 /* UIKit.framework */; };
+		F46488C21B3B92A1003B1793 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488C11B3B92A1003B1793 /* AssetsLibrary.framework */; };
+		F46488C41B3B92AD003B1793 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488C31B3B92AD003B1793 /* Security.framework */; };
+		F46488C61B3B92BA003B1793 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488C51B3B92BA003B1793 /* SystemConfiguration.framework */; };
+		F46488C81B3B92C7003B1793 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488C71B3B92C7003B1793 /* CoreText.framework */; };
+		F46488CA1B3B92DA003B1793 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488C91B3B92DA003B1793 /* CoreLocation.framework */; };
+		F46488CC1B3B92E6003B1793 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46488CB1B3B92E6003B1793 /* CoreMotion.framework */; };
+		F4A3CDD11B3E881B0031BA23 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A3CDD01B3E881B0031BA23 /* WebP.framework */; };
+		F4AD2C431B3DC6590012C2EC /* AbelanaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C2B1B3DC6590012C2EC /* AbelanaClient.swift */; };
+		F4AD2C441B3DC6590012C2EC /* AbelanaClientCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C2C1B3DC6590012C2EC /* AbelanaClientCache.swift */; };
+		F4AD2C451B3DC6590012C2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C2D1B3DC6590012C2EC /* AppDelegate.swift */; };
+		F4AD2C481B3DC6590012C2EC /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C331B3DC6590012C2EC /* CloudStorage.swift */; };
+		F4AD2C491B3DC6590012C2EC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD2C341B3DC6590012C2EC /* FacebookSDK.framework */; };
+		F4AD2C4A1B3DC6590012C2EC /* GITkit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2C351B3DC6590012C2EC /* GITkit.bundle */; };
+		F4AD2C4B1B3DC6590012C2EC /* GITkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD2C361B3DC6590012C2EC /* GITkit.framework */; };
+		F4AD2C4C1B3DC6590012C2EC /* GitkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C371B3DC6590012C2EC /* GitkitViewController.swift */; };
+		F4AD2C4D1B3DC6590012C2EC /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD2C381B3DC6590012C2EC /* GoogleOpenSource.framework */; };
+		F4AD2C4E1B3DC6590012C2EC /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2C391B3DC6590012C2EC /* GooglePlus.bundle */; };
+		F4AD2C4F1B3DC6590012C2EC /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD2C3A1B3DC6590012C2EC /* GooglePlus.framework */; };
+		F4AD2C501B3DC6590012C2EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2C3B1B3DC6590012C2EC /* Images.xcassets */; };
+		F4AD2C521B3DC6590012C2EC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C3D1B3DC6590012C2EC /* MainViewController.swift */; };
+		F4AD2C531B3DC6590012C2EC /* NavigationDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C3E1B3DC6590012C2EC /* NavigationDrawerViewController.swift */; };
+		F4AD2C541B3DC6590012C2EC /* PhotoStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C3F1B3DC6590012C2EC /* PhotoStreamViewController.swift */; };
+		F4AD2C551B3DC6590012C2EC /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C401B3DC6590012C2EC /* PhotoViewCell.swift */; };
+		F4AD2C561B3DC6590012C2EC /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C411B3DC6590012C2EC /* Storyboard.swift */; };
+		F4AD2C571B3DC6590012C2EC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD2C421B3DC6590012C2EC /* UploadViewController.swift */; };
+		F4AD2C5C1B3DC6910012C2EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2C581B3DC6910012C2EC /* LaunchScreen.xib */; };
+		F4AD2C5D1B3DC6910012C2EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AD2C5A1B3DC6910012C2EC /* Main.storyboard */; };
+		F4AEC12E1B47CC4100A678BB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AEC1301B47CC4100A678BB /* Localizable.strings */; };
+		F4E02C121B41BF15000B9BB4 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C111B41BF15000B9BB4 /* Photo.swift */; };
+		F4E02C361B41C620000B9BB4 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C151B41C620000B9BB4 /* MKAnnotationView+WebCache.m */; };
+		F4E02C371B41C620000B9BB4 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C171B41C620000B9BB4 /* NSData+ImageContentType.m */; };
+		F4E02C381B41C620000B9BB4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C191B41C620000B9BB4 /* SDImageCache.m */; };
+		F4E02C391B41C620000B9BB4 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C1B1B41C620000B9BB4 /* SDWebImageCompat.m */; };
+		F4E02C3A1B41C620000B9BB4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C1D1B41C620000B9BB4 /* SDWebImageDecoder.m */; };
+		F4E02C3B1B41C620000B9BB4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C1F1B41C620000B9BB4 /* SDWebImageDownloader.m */; };
+		F4E02C3C1B41C620000B9BB4 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C211B41C620000B9BB4 /* SDWebImageDownloaderOperation.m */; };
+		F4E02C3D1B41C620000B9BB4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C231B41C620000B9BB4 /* SDWebImageManager.m */; };
+		F4E02C3E1B41C620000B9BB4 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C261B41C620000B9BB4 /* SDWebImagePrefetcher.m */; };
+		F4E02C3F1B41C620000B9BB4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C281B41C620000B9BB4 /* UIButton+WebCache.m */; };
+		F4E02C401B41C620000B9BB4 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C2A1B41C620000B9BB4 /* UIImage+GIF.m */; };
+		F4E02C411B41C620000B9BB4 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C2C1B41C620000B9BB4 /* UIImage+MultiFormat.m */; };
+		F4E02C421B41C620000B9BB4 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C2E1B41C620000B9BB4 /* UIImage+WebP.m */; };
+		F4E02C431B41C620000B9BB4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C301B41C620000B9BB4 /* UIImageView+HighlightedWebCache.m */; };
+		F4E02C441B41C620000B9BB4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C321B41C620000B9BB4 /* UIImageView+WebCache.m */; };
+		F4E02C451B41C620000B9BB4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E02C341B41C620000B9BB4 /* UIView+WebCacheOperation.m */; };
+		F4EA63281B3FDB26004DAC02 /* AbelanaConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EA63271B3FDB26004DAC02 /* AbelanaConfig.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46A63641ADC4703008C82FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46A63461ADC4703008C82FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46A634D1ADC4703008C82FC;
+			remoteInfo = "Abelana v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DF5BD94733F954ED09096F7 /* libPods-Abelana_v2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Abelana_v2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5BE67BCE9D7E3B9D73103C /* libPods-Abelana v2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Abelana v2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A585F6EFF326008C7C69E7 /* Pods-Abelana_v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abelana_v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abelana_v2/Pods-Abelana_v2.debug.xcconfig"; sourceTree = "<group>"; };
+		F46488B91B3B9256003B1793 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F46488BB1B3B9270003B1793 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F46488BD1B3B928F003B1793 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F46488BF1B3B9295003B1793 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46488C11B3B92A1003B1793 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F46488C31B3B92AD003B1793 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F46488C51B3B92BA003B1793 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F46488C71B3B92C7003B1793 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F46488C91B3B92DA003B1793 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F46488CB1B3B92E6003B1793 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F46A634E1ADC4703008C82FC /* Abelana_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abelana_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46A63631ADC4703008C82FC /* Abelana_v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Abelana_v2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A3CDD01B3E881B0031BA23 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Abelana_v2/WebP.framework; sourceTree = SOURCE_ROOT; };
+		F4AD2C2A1B3DC6590012C2EC /* Abelana_v2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Abelana_v2-Bridging-Header.h"; path = "Abelana_v2/Abelana_v2-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F4AD2C2B1B3DC6590012C2EC /* AbelanaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbelanaClient.swift; path = Abelana_v2/AbelanaClient.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C2C1B3DC6590012C2EC /* AbelanaClientCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbelanaClientCache.swift; path = Abelana_v2/AbelanaClientCache.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C2D1B3DC6590012C2EC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Abelana_v2/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C331B3DC6590012C2EC /* CloudStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudStorage.swift; path = Abelana_v2/CloudStorage.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C341B3DC6590012C2EC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Abelana_v2/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
+		F4AD2C351B3DC6590012C2EC /* GITkit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GITkit.bundle; path = Abelana_v2/GITkit.bundle; sourceTree = SOURCE_ROOT; };
+		F4AD2C361B3DC6590012C2EC /* GITkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GITkit.framework; path = Abelana_v2/GITkit.framework; sourceTree = SOURCE_ROOT; };
+		F4AD2C371B3DC6590012C2EC /* GitkitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitkitViewController.swift; path = Abelana_v2/GitkitViewController.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C381B3DC6590012C2EC /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = Abelana_v2/GoogleOpenSource.framework; sourceTree = SOURCE_ROOT; };
+		F4AD2C391B3DC6590012C2EC /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = Abelana_v2/GooglePlus.bundle; sourceTree = SOURCE_ROOT; };
+		F4AD2C3A1B3DC6590012C2EC /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Abelana_v2/GooglePlus.framework; sourceTree = SOURCE_ROOT; };
+		F4AD2C3B1B3DC6590012C2EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Abelana_v2/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		F4AD2C3C1B3DC6590012C2EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Abelana_v2/Info.plist; sourceTree = SOURCE_ROOT; };
+		F4AD2C3D1B3DC6590012C2EC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Abelana_v2/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C3E1B3DC6590012C2EC /* NavigationDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerViewController.swift; path = Abelana_v2/NavigationDrawerViewController.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C3F1B3DC6590012C2EC /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStreamViewController.swift; path = Abelana_v2/PhotoStreamViewController.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C401B3DC6590012C2EC /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewCell.swift; path = Abelana_v2/PhotoViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C411B3DC6590012C2EC /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storyboard.swift; path = Abelana_v2/Storyboard.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C421B3DC6590012C2EC /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadViewController.swift; path = Abelana_v2/UploadViewController.swift; sourceTree = SOURCE_ROOT; };
+		F4AD2C591B3DC6910012C2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Abelana_v2/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		F4AD2C5B1B3DC6910012C2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Abelana_v2/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		F4AEC12F1B47CC4100A678BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4E02C111B41BF15000B9BB4 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = Abelana_v2/Photo.swift; sourceTree = SOURCE_ROOT; };
+		F4E02C141B41C620000B9BB4 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		F4E02C151B41C620000B9BB4 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		F4E02C161B41C620000B9BB4 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		F4E02C171B41C620000B9BB4 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F4E02C181B41C620000B9BB4 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		F4E02C191B41C620000B9BB4 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		F4E02C1A1B41C620000B9BB4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		F4E02C1B1B41C620000B9BB4 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		F4E02C1C1B41C620000B9BB4 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		F4E02C1D1B41C620000B9BB4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F4E02C1E1B41C620000B9BB4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		F4E02C1F1B41C620000B9BB4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		F4E02C201B41C620000B9BB4 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		F4E02C211B41C620000B9BB4 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		F4E02C221B41C620000B9BB4 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		F4E02C231B41C620000B9BB4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		F4E02C241B41C620000B9BB4 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		F4E02C251B41C620000B9BB4 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		F4E02C261B41C620000B9BB4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		F4E02C271B41C620000B9BB4 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F4E02C281B41C620000B9BB4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		F4E02C291B41C620000B9BB4 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		F4E02C2A1B41C620000B9BB4 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		F4E02C2B1B41C620000B9BB4 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F4E02C2C1B41C620000B9BB4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F4E02C2D1B41C620000B9BB4 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		F4E02C2E1B41C620000B9BB4 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		F4E02C2F1B41C620000B9BB4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		F4E02C301B41C620000B9BB4 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		F4E02C311B41C620000B9BB4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F4E02C321B41C620000B9BB4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		F4E02C331B41C620000B9BB4 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		F4E02C341B41C620000B9BB4 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		F4EA63271B3FDB26004DAC02 /* AbelanaConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AbelanaConfig.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46A634B1ADC4703008C82FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46488CC1B3B92E6003B1793 /* CoreMotion.framework in Frameworks */,
+				F4AD2C4F1B3DC6590012C2EC /* GooglePlus.framework in Frameworks */,
+				F46488CA1B3B92DA003B1793 /* CoreLocation.framework in Frameworks */,
+				F4AD2C4B1B3DC6590012C2EC /* GITkit.framework in Frameworks */,
+				F46488C81B3B92C7003B1793 /* CoreText.framework in Frameworks */,
+				F46488C61B3B92BA003B1793 /* SystemConfiguration.framework in Frameworks */,
+				F46488C41B3B92AD003B1793 /* Security.framework in Frameworks */,
+				F46488C21B3B92A1003B1793 /* AssetsLibrary.framework in Frameworks */,
+				F4A3CDD11B3E881B0031BA23 /* WebP.framework in Frameworks */,
+				F46488C01B3B9295003B1793 /* UIKit.framework in Frameworks */,
+				F46488BE1B3B928F003B1793 /* Foundation.framework in Frameworks */,
+				F4AD2C491B3DC6590012C2EC /* FacebookSDK.framework in Frameworks */,
+				F4AD2C4D1B3DC6590012C2EC /* GoogleOpenSource.framework in Frameworks */,
+				F46488BC1B3B9270003B1793 /* MediaPlayer.framework in Frameworks */,
+				F46488BA1B3B9256003B1793 /* AddressBook.framework in Frameworks */,
+				B7C9DDCD76077A49D9A462A5 /* libPods-Abelana_v2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A63601ADC4703008C82FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFA4A82D31F639EA39FEC4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2A585F6EFF326008C7C69E7 /* Pods-Abelana_v2.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		508EB976B8D795B99ED3E9FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46488CB1B3B92E6003B1793 /* CoreMotion.framework */,
+				F46488C91B3B92DA003B1793 /* CoreLocation.framework */,
+				F46488C71B3B92C7003B1793 /* CoreText.framework */,
+				F46488C51B3B92BA003B1793 /* SystemConfiguration.framework */,
+				F46488C31B3B92AD003B1793 /* Security.framework */,
+				F46488C11B3B92A1003B1793 /* AssetsLibrary.framework */,
+				F46488BF1B3B9295003B1793 /* UIKit.framework */,
+				F46488BD1B3B928F003B1793 /* Foundation.framework */,
+				F46488BB1B3B9270003B1793 /* MediaPlayer.framework */,
+				F46488B91B3B9256003B1793 /* AddressBook.framework */,
+				CF5BE67BCE9D7E3B9D73103C /* libPods-Abelana v2.a */,
+				6DF5BD94733F954ED09096F7 /* libPods-Abelana_v2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46A63451ADC4703008C82FC = {
+			isa = PBXGroup;
+			children = (
+				F46A63501ADC4703008C82FC /* Abelana_v2 */,
+				F46A634F1ADC4703008C82FC /* Products */,
+				1DFA4A82D31F639EA39FEC4F /* Pods */,
+				508EB976B8D795B99ED3E9FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46A634F1ADC4703008C82FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46A634E1ADC4703008C82FC /* Abelana_v2.app */,
+				F46A63631ADC4703008C82FC /* Abelana_v2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46A63501ADC4703008C82FC /* Abelana_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4E02C131B41C620000B9BB4 /* SDWebImage */,
+				F4A3CDD01B3E881B0031BA23 /* WebP.framework */,
+				F4AD2C341B3DC6590012C2EC /* FacebookSDK.framework */,
+				F4AD2C351B3DC6590012C2EC /* GITkit.bundle */,
+				F4AD2C361B3DC6590012C2EC /* GITkit.framework */,
+				F4AD2C381B3DC6590012C2EC /* GoogleOpenSource.framework */,
+				F4AD2C391B3DC6590012C2EC /* GooglePlus.bundle */,
+				F4AD2C3A1B3DC6590012C2EC /* GooglePlus.framework */,
+				F4AD2C3B1B3DC6590012C2EC /* Images.xcassets */,
+				F4AD2C581B3DC6910012C2EC /* LaunchScreen.xib */,
+				F4AD2C5A1B3DC6910012C2EC /* Main.storyboard */,
+				F4AD2C2A1B3DC6590012C2EC /* Abelana_v2-Bridging-Header.h */,
+				F4AD2C2B1B3DC6590012C2EC /* AbelanaClient.swift */,
+				F4AD2C2C1B3DC6590012C2EC /* AbelanaClientCache.swift */,
+				F4AD2C2D1B3DC6590012C2EC /* AppDelegate.swift */,
+				F4AEC1301B47CC4100A678BB /* Localizable.strings */,
+				F4AD2C331B3DC6590012C2EC /* CloudStorage.swift */,
+				F4AD2C371B3DC6590012C2EC /* GitkitViewController.swift */,
+				F4AD2C3D1B3DC6590012C2EC /* MainViewController.swift */,
+				F4AD2C3E1B3DC6590012C2EC /* NavigationDrawerViewController.swift */,
+				F4AD2C3F1B3DC6590012C2EC /* PhotoStreamViewController.swift */,
+				F4E02C111B41BF15000B9BB4 /* Photo.swift */,
+				F4AD2C401B3DC6590012C2EC /* PhotoViewCell.swift */,
+				F4AD2C411B3DC6590012C2EC /* Storyboard.swift */,
+				F4AD2C421B3DC6590012C2EC /* UploadViewController.swift */,
+				F46A63511ADC4703008C82FC /* Supporting Files */,
+			);
+			name = Abelana_v2;
+			path = "Abelana v2";
+			sourceTree = "<group>";
+		};
+		F46A63511ADC4703008C82FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD2C3C1B3DC6590012C2EC /* Info.plist */,
+				F4EA63271B3FDB26004DAC02 /* AbelanaConfig.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4E02C131B41C620000B9BB4 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F4E02C141B41C620000B9BB4 /* MKAnnotationView+WebCache.h */,
+				F4E02C151B41C620000B9BB4 /* MKAnnotationView+WebCache.m */,
+				F4E02C161B41C620000B9BB4 /* NSData+ImageContentType.h */,
+				F4E02C171B41C620000B9BB4 /* NSData+ImageContentType.m */,
+				F4E02C181B41C620000B9BB4 /* SDImageCache.h */,
+				F4E02C191B41C620000B9BB4 /* SDImageCache.m */,
+				F4E02C1A1B41C620000B9BB4 /* SDWebImageCompat.h */,
+				F4E02C1B1B41C620000B9BB4 /* SDWebImageCompat.m */,
+				F4E02C1C1B41C620000B9BB4 /* SDWebImageDecoder.h */,
+				F4E02C1D1B41C620000B9BB4 /* SDWebImageDecoder.m */,
+				F4E02C1E1B41C620000B9BB4 /* SDWebImageDownloader.h */,
+				F4E02C1F1B41C620000B9BB4 /* SDWebImageDownloader.m */,
+				F4E02C201B41C620000B9BB4 /* SDWebImageDownloaderOperation.h */,
+				F4E02C211B41C620000B9BB4 /* SDWebImageDownloaderOperation.m */,
+				F4E02C221B41C620000B9BB4 /* SDWebImageManager.h */,
+				F4E02C231B41C620000B9BB4 /* SDWebImageManager.m */,
+				F4E02C241B41C620000B9BB4 /* SDWebImageOperation.h */,
+				F4E02C251B41C620000B9BB4 /* SDWebImagePrefetcher.h */,
+				F4E02C261B41C620000B9BB4 /* SDWebImagePrefetcher.m */,
+				F4E02C271B41C620000B9BB4 /* UIButton+WebCache.h */,
+				F4E02C281B41C620000B9BB4 /* UIButton+WebCache.m */,
+				F4E02C291B41C620000B9BB4 /* UIImage+GIF.h */,
+				F4E02C2A1B41C620000B9BB4 /* UIImage+GIF.m */,
+				F4E02C2B1B41C620000B9BB4 /* UIImage+MultiFormat.h */,
+				F4E02C2C1B41C620000B9BB4 /* UIImage+MultiFormat.m */,
+				F4E02C2D1B41C620000B9BB4 /* UIImage+WebP.h */,
+				F4E02C2E1B41C620000B9BB4 /* UIImage+WebP.m */,
+				F4E02C2F1B41C620000B9BB4 /* UIImageView+HighlightedWebCache.h */,
+				F4E02C301B41C620000B9BB4 /* UIImageView+HighlightedWebCache.m */,
+				F4E02C311B41C620000B9BB4 /* UIImageView+WebCache.h */,
+				F4E02C321B41C620000B9BB4 /* UIImageView+WebCache.m */,
+				F4E02C331B41C620000B9BB4 /* UIView+WebCacheOperation.h */,
+				F4E02C341B41C620000B9BB4 /* UIView+WebCacheOperation.m */,
+			);
+			name = SDWebImage;
+			path = Abelana_v2/SDWebImage;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46A634D1ADC4703008C82FC /* Abelana_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46A636D1ADC4703008C82FC /* Build configuration list for PBXNativeTarget "Abelana_v2" */;
+			buildPhases = (
+				AB804AC253BBC8A5A0A772C6 /* Check Pods Manifest.lock */,
+				F46A634A1ADC4703008C82FC /* Sources */,
+				F46A634B1ADC4703008C82FC /* Frameworks */,
+				F46A634C1ADC4703008C82FC /* Resources */,
+				F7807D5A1BCC8BF4D3C89346 /* Copy Pods Resources */,
+				F4E02C101B41B8EF000B9BB4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abelana_v2;
+			productName = "Abelana v2";
+			productReference = F46A634E1ADC4703008C82FC /* Abelana_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46A63621ADC4703008C82FC /* Abelana_v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46A63701ADC4703008C82FC /* Build configuration list for PBXNativeTarget "Abelana_v2Tests" */;
+			buildPhases = (
+				F46A635F1ADC4703008C82FC /* Sources */,
+				F46A63601ADC4703008C82FC /* Frameworks */,
+				F46A63611ADC4703008C82FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46A63651ADC4703008C82FC /* PBXTargetDependency */,
+			);
+			name = Abelana_v2Tests;
+			productName = "Abelana v2Tests";
+			productReference = F46A63631ADC4703008C82FC /* Abelana_v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46A63461ADC4703008C82FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Google, Inc.";
+				TargetAttributes = {
+					F46A634D1ADC4703008C82FC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F46A63621ADC4703008C82FC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F46A634D1ADC4703008C82FC;
+					};
+				};
+			};
+			buildConfigurationList = F46A63491ADC4703008C82FC /* Build configuration list for PBXProject "Abelana_v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46A63451ADC4703008C82FC;
+			productRefGroup = F46A634F1ADC4703008C82FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46A634D1ADC4703008C82FC /* Abelana_v2 */,
+				F46A63621ADC4703008C82FC /* Abelana_v2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46A634C1ADC4703008C82FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD2C5C1B3DC6910012C2EC /* LaunchScreen.xib in Resources */,
+				F4AD2C501B3DC6590012C2EC /* Images.xcassets in Resources */,
+				F4AD2C5D1B3DC6910012C2EC /* Main.storyboard in Resources */,
+				F4AD2C4A1B3DC6590012C2EC /* GITkit.bundle in Resources */,
+				F4EA63281B3FDB26004DAC02 /* AbelanaConfig.plist in Resources */,
+				F4AD2C4E1B3DC6590012C2EC /* GooglePlus.bundle in Resources */,
+				F4AEC12E1B47CC4100A678BB /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A63611ADC4703008C82FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB804AC253BBC8A5A0A772C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E02C101B41B8EF000B9BB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /usr/local/bin/swiftlint;
+		};
+		F7807D5A1BCC8BF4D3C89346 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abelana_v2/Pods-Abelana_v2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46A634A1ADC4703008C82FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E02C121B41BF15000B9BB4 /* Photo.swift in Sources */,
+				F4AD2C4C1B3DC6590012C2EC /* GitkitViewController.swift in Sources */,
+				F4E02C421B41C620000B9BB4 /* UIImage+WebP.m in Sources */,
+				F4AD2C571B3DC6590012C2EC /* UploadViewController.swift in Sources */,
+				F4E02C3F1B41C620000B9BB4 /* UIButton+WebCache.m in Sources */,
+				F4E02C3C1B41C620000B9BB4 /* SDWebImageDownloaderOperation.m in Sources */,
+				F4AD2C451B3DC6590012C2EC /* AppDelegate.swift in Sources */,
+				F4E02C381B41C620000B9BB4 /* SDImageCache.m in Sources */,
+				F4E02C371B41C620000B9BB4 /* NSData+ImageContentType.m in Sources */,
+				F4AD2C551B3DC6590012C2EC /* PhotoViewCell.swift in Sources */,
+				F4E02C3A1B41C620000B9BB4 /* SDWebImageDecoder.m in Sources */,
+				F4AD2C481B3DC6590012C2EC /* CloudStorage.swift in Sources */,
+				F4E02C431B41C620000B9BB4 /* UIImageView+HighlightedWebCache.m in Sources */,
+				F4AD2C521B3DC6590012C2EC /* MainViewController.swift in Sources */,
+				F4E02C3B1B41C620000B9BB4 /* SDWebImageDownloader.m in Sources */,
+				F4E02C391B41C620000B9BB4 /* SDWebImageCompat.m in Sources */,
+				F4AD2C441B3DC6590012C2EC /* AbelanaClientCache.swift in Sources */,
+				F4E02C401B41C620000B9BB4 /* UIImage+GIF.m in Sources */,
+				F4E02C411B41C620000B9BB4 /* UIImage+MultiFormat.m in Sources */,
+				F4AD2C561B3DC6590012C2EC /* Storyboard.swift in Sources */,
+				F4E02C3E1B41C620000B9BB4 /* SDWebImagePrefetcher.m in Sources */,
+				F4AD2C531B3DC6590012C2EC /* NavigationDrawerViewController.swift in Sources */,
+				F4E02C361B41C620000B9BB4 /* MKAnnotationView+WebCache.m in Sources */,
+				F4E02C441B41C620000B9BB4 /* UIImageView+WebCache.m in Sources */,
+				F4E02C451B41C620000B9BB4 /* UIView+WebCacheOperation.m in Sources */,
+				F4E02C3D1B41C620000B9BB4 /* SDWebImageManager.m in Sources */,
+				F4AD2C431B3DC6590012C2EC /* AbelanaClient.swift in Sources */,
+				F4AD2C541B3DC6590012C2EC /* PhotoStreamViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A635F1ADC4703008C82FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46A63651ADC4703008C82FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46A634D1ADC4703008C82FC /* Abelana_v2 */;
+			targetProxy = F46A63641ADC4703008C82FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4AD2C581B3DC6910012C2EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD2C591B3DC6910012C2EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F4AD2C5A1B3DC6910012C2EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD2C5B1B3DC6910012C2EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4AEC1301B47CC4100A678BB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AEC12F1B47CC4100A678BB /* en */,
+			);
+			name = Localizable.strings;
+			path = Abelana_v2;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46A636B1ADC4703008C82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46A636E1ADC4703008C82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A585F6EFF326008C7C69E7 /* Pods-Abelana_v2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Abelana_v2",
+					/Users/gangloff/Desktop/WebPImageSerialization,
+					"$(PROJECT_DIR)/Abelana_v2/SDWebImage",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SD_WEBP=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Abelana_v2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Abelana_v2;
+				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT_DIR/Abelana_v2/Abelana_v2-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F46A63711ADC4703008C82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Abelana v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Abelana_v2Tests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abelana v2.app/Abelana v2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46A63491ADC4703008C82FC /* Build configuration list for PBXProject "Abelana_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A636B1ADC4703008C82FC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F46A636D1ADC4703008C82FC /* Build configuration list for PBXNativeTarget "Abelana_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A636E1ADC4703008C82FC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F46A63701ADC4703008C82FC /* Build configuration list for PBXNativeTarget "Abelana_v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A63711ADC4703008C82FC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46A63461ADC4703008C82FC /* Project object */;
+}

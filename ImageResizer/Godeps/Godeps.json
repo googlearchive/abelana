@@ -1,0 +1,47 @@
+{
+	"ImportPath": "github.com/googlecloudplatform/abelana-gcp/imagemagick",
+	"GoVersion": "devel",
+	"Deps": [
+		{
+			"ImportPath": "github.com/bradfitz/http2",
+			"Rev": "f8202bc903bda493ebba4aa54922d78430c2c42f"
+		},
+		{
+			"ImportPath": "github.com/gographics/imagick/imagick",
+			"Comment": "0.0.1-38-g513b2f3",
+			"Rev": "513b2f38a9c6f2e567db5bb4654f688a3244a4ff"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "aece6fb931241ad332956db4f62798dfbea944b3"
+		},
+		{
+			"ImportPath": "github.com/google/google-api-go-client/oauth2/v2",
+			"Rev": "a09229c13c2f13bbdedf7b31b506cad4c83ef3bf"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "dfe268fd2bb5c793f4c083803609fce9806c6f80"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "b5adcc2dcdf009d0391547edc6ecbaff889f5bb9"
+		},
+		{
+			"ImportPath": "google.golang.org/api/googleapi",
+			"Rev": "0610a35668fd6881bec389e74208f0df92010e96"
+		},
+		{
+			"ImportPath": "google.golang.org/api/storage/v1",
+			"Rev": "0610a35668fd6881bec389e74208f0df92010e96"
+		},
+		{
+			"ImportPath": "google.golang.org/cloud",
+			"Rev": "dc51b6834a651f3a6626602d29c5bbd80659e234"
+		},
+		{
+			"ImportPath": "google.golang.org/grpc",
+			"Rev": "c2d7a03d7566ec4f429e15294c90b1adf51b2a9a"
+		}
+	]
+}

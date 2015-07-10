@@ -1,0 +1,90 @@
+<!--
+  ~ Copyright 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="fb_app_id">YOUR-FACEBOOK-APP-ID</string>
+
+
+    <string name="app_name">Abelana v2</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Upload picture</string>
+    <string name="title_section3">My pictures</string>
+    <string name="title_section4">Favorites</string>
+    <string name="title_sign_out">Sign out</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refresh">Refresh</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="picture_upload_description">Description</string>
+    <string name="upload_menu_action">Upload picture</string>
+    <string name="sign_out_label">Sign out</string>
+    <string name="start_signin">Sign in to start using Abelana</string>
+    <string name="profile_picture_desc">Profile picture</string>
+    <string name="sign_in_label">Sign in</string>
+    <string name="sign_in_profile_title">Your account</string>
+    <string name="server_connection_error">An error occured while connecting
+        to the server. Please check your internet connection.</string>
+    <string name="server_authentication_error">An authentication error occurred.
+        Please try again!</string>
+    <string name="server_error">An error occurred. Please try again!</string>
+
+    <string name="photo_card_picture_label">Picture</string>
+    <string name="photo_card_thumbs_up_label">Thumbs up</string>
+    <string name="photo_card_thumbs_down_label">Thumbs down</string>
+    <string name="photo_card_set_wallpaper_label">Set as wallpaper</string>
+    <string name="context_menu_report">Report picture as inappropriate</string>
+    <string name="navigation_drawer_item_icon">Navigation drawer item icon</string>
+    <string name="upload_fragment_image_to_upload">Image to upload</string>
+    <string name="photo_card_edit">Edit photo</string>
+    <string name="photo_card_delete">Delete photo</string>
+    <string name="fab_add_picture">Upload picture</string>
+    <string name="sign_out_failed">Impossible to sign out</string>
+    <string name="upload_photo_description_missing">Description is missing.</string>
+    <string name="upload_photo_progress_title">Uploading photo</string>
+    <string name="upload_photo_progress_message">Please wait while your photo is
+        being uploaded!</string>
+    <string name="upload_photo_retrieve_image_error">Impossible to retrieve the
+        image.</string>
+    <string name="upload_photo_progress_retrieve_title">Retrieving photo</string>
+    <string name="upload_photo_progress_retrieve_message">Please wait!</string>
+    <string name="upload_photo_photo_missing">Please select a photo.</string>
+    <string name="upload_photo_error_dialog_title">Information missing</string>
+    <string name="upload_photo_failed">Upload of the photo failed. Please try
+        again.</string>
+    <string name="photo_list_report_photo_title">Inappropriate photo</string>
+    <string name="photo_list_report_photo_message">Are you sure you want to report this photo as inappropriate?</string>
+    <string name="photo_list_delete_photo_title">Delete photo</string>
+    <string name="photo_list_delete_photo_message">Are you sure you want to delete this photo?</string>
+    <string name="delete">Delete</string>
+    <string name="report">Report</string>
+    <string name="edit">Edit</string>
+    <string name="photo_list_edit_photo_title">Edit photo</string>
+    <string name="photo_list_edit_photo_message">Edit the photo
+        description:</string>
+    <string name="photo_list_wallpaper_title">Set as wallpaper</string>
+    <string name="photo_list_wallpaper_message">Set this photo as your phone\'s wallapper?</string>
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="wallpaper_error">An error occured while setting the wallpaper.</string>
+    <string name="sign_in_failed">Impossible to sign in, please try again.</string>
+    <string name="sign_in_progress_title">Signin you in</string>
+    <string name="sign_in_progress_message">Please wait while we try to sign you in</string>
+    <string name="abelana_auth_error_message">You are not authenticated</string>
+
+</resources>

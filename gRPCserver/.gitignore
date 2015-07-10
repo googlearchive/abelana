@@ -1,0 +1,6 @@
+/target/
+.idea/librairies/
+/build/
+.gradle/
+.idea
+*.p12

@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; accessibilityHint = "Description"; ObjectID = "6hD-Sr-lV1"; */
+"6hD-Sr-lV1.accessibilityHint" = "Description";
+
+/* Class = "UITextField"; accessibilityLabel = "Image description"; ObjectID = "6hD-Sr-lV1"; */
+"6hD-Sr-lV1.accessibilityLabel" = "Image description";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "6hD-Sr-lV1"; */
+"6hD-Sr-lV1.placeholder" = "Description";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "CCS-Ll-uE8"; */
+"CCS-Ll-uE8.title" = "Home";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FQ5-DT-ss5"; */
+"FQ5-DT-ss5.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Upload"; ObjectID = "Jpq-mc-SOx"; */
+"Jpq-mc-SOx.title" = "Upload";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "OTE-nR-6VA"; */
+"OTE-nR-6VA.normalTitle" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Upload"; ObjectID = "ieQ-Vw-6YT"; */
+"ieQ-Vw-6YT.normalTitle" = "Upload";
+
+/* Class = "UINavigationItem"; title = "Sign In"; ObjectID = "pd8-4b-QNO"; */
+"pd8-4b-QNO.title" = "Sign In";

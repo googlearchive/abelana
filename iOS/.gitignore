@@ -1,0 +1,11 @@
+*.xcworkspace/
+Podfile.lock
+Pods/
+Abelana_v2/SDWebImage/
+Abelana_v2/WebP.framework
+Abelana_v2/FacebookSDK.framework
+Abelana_v2/GITkit.bundle
+Abelana_v2/GITkit.framework
+Abelana_v2/GoogleOpenSource.framework
+Abelana_v2/GooglePlus.bundle
+Abelana_v2/GooglePlus.framework

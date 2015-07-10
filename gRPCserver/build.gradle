@@ -1,0 +1,109 @@
+/*
+ * Copyright 2015 Google, Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'com.google.protobuf'
+apply plugin: 'idea'
+
+version = '1.0'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.4.1'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jcenter.bintray.com"
+    }
+}
+
+dependencies {
+    compile 'io.grpc:grpc-all:0.7.1'
+    compile 'org.json:json:20140107'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'joda-time:joda-time:2.7'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.googlecode.jsontoken:jsontoken:1.1'
+    compile 'com.google.identitytoolkit:gitkitclient:1.2.2'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.apis:google-api-services-datastore-protobuf:v1beta2-rev1-2.1.2'
+    compile 'org.apache.commons:commons-math3:3.5'
+    compile 'com.google.api-client:google-api-client:1.20.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile "org.mockito:mockito-core:1.+"
+    testCompile 'org.powermock:powermock-module-junit4:1.6.2'
+    testCompile 'org.powermock:powermock-api-mockito:1.6.2'
+
+}
+
+protocDep = "com.google.protobuf:protoc:3.0.0-alpha-3"
+protobufNativeCodeGenPluginDeps = ["grpc:io.grpc:protoc-gen-grpc-java:0.7.1"]
+
+sourceSets {
+    main {
+        proto {
+            plugins {
+                grpc { }
+            }
+        }
+    }
+
+    test {
+        java.srcDirs = ["src/test/"]
+    }
+}
+
+mainClassName = 'com.examples.abelanav2.grpc.AbelanaGrpcServer'
+
+distZip {
+    doLast {
+        ant.unzip(src: "$destinationDir/$archiveName", dest: "$destinationDir")
+    }
+}
+
+task prepare(type: Exec) {
+    commandLine "chmod 777 build/distributions/$project.name-$version/bin/$project.name".split()
+}
+
+task execute(type: Exec) {
+    commandLine "sh build/distributions/$project.name-$version/bin/$project.name".split()
+}
+
+prepare.dependsOn distZip
+execute.dependsOn prepare
+
+idea {
+    module {
+        // The whole build dir is excluded by default, but we need build/generated-sources,
+        // which contains the generated proto classes.
+        excludeDirs = [file('.gradle')]
+        if (buildDir.exists()) {
+            excludeDirs += files(buildDir.listFiles())
+            excludeDirs -= file("$buildDir/generated-sources")
+        }
+    }
+}

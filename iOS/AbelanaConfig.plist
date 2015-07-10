@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gitkitClient.ClientID</key>
+	<string>Your Gitkit Client ID</string>
+	<key>gitkitClient.WidgetURL</key>
+	<string>http://localhost?placeholder</string>
+	<key>gitkitClient.ApiKey</key>
+	<string>Your Gitkit ApiKey</string>
+	<key>packageName</key>
+	<string>abelanav2.grpc</string>
+	<key>interface</key>
+	<string>Abelana</string>
+	<key>remoteHost</key>
+	<string>http://localhost:50051</string>
+</dict>
+</plist>

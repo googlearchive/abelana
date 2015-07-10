@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.examples.abelanav2.ui.PicturesFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cardList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <com.examples.abelanav2.ui.utils.FloatingActionButton
+        android:id="@+id/fab_add_photo"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/margin_medium"
+        android:background="@drawable/fab_background"
+        android:elevation="@dimen/fab_elevation"
+        android:stateListAnimator="@animator/fab_anim">
+
+        <ImageView
+            android:layout_width="@dimen/fab_icon_size"
+            android:layout_height="@dimen/fab_icon_size"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:src="@drawable/fab_icons"
+            android:contentDescription="@string/fab_add_picture"/>
+
+    </com.examples.abelanav2.ui.utils.FloatingActionButton>
+
+</FrameLayout>
