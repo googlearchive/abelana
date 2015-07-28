@@ -9,7 +9,7 @@ picture as their phone's wallpaper. They can upload their own photos for others 
 and delete them. Photos reported by at least two users will be hidden in everyone's feed. Sign-in is
 possible using Google+/Facebook accounts, by leveraging the Google Identity Toolkit (GitKit).
 
-The backend is a Java component exposing the APIs using the [gRPC framwork](http://www.grpc.io/) and
+The backend is a Java component exposing the APIs using the [gRPC framework](http://www.grpc.io/) and
 running on Google Compute Engine in a Docker container, and a Go component also running on GCE in a
 Docker container to resize the images.  Android and iOS clients are available.
 
