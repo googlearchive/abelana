@@ -16,6 +16,8 @@ Docker container to resize the images.  Android and iOS clients are available.
 See our other [Google Cloud Platform github repos](https://github.com/GoogleCloudPlatform) for
 sample applications and scaffolding for other frameworks and use cases.
 
+## WARNING - Abelana's image resizer uses [ImageMagick](http://www.imagemagick.org/) which has a recently discovered [exploit](https://imagetragick.com/).  Please add  [these lines](https://bugzilla.redhat.com/show_bug.cgi?id=1332492#c3) to your configuration file.
+
 ## Composition of the project
 
 * Android is the Android client application, connecting to the gRPCserver.
