@@ -1,3 +1,9 @@
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+This project is no longer actively developed or maintained.
+
+For new work on this check out [this sample](https://cloud.google.com/solutions/mobile/mobile-compute-engine-grpc).
+
 ## Abelana v2
 
 Abelana is a simple and beautiful cross-platform application allowing users to publish and view
